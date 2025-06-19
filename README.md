@@ -46,6 +46,9 @@ Each build and deploy is tracked through Jenkins pipelines and reflected by the 
 ### Final stage/production 
 ![Deployment](https://github.com/user-attachments/assets/5f4eb21f-f933-43bf-ae2c-12fe128cbd43)
 
+See the site here: https://reliable-torte-876769.netlify.app/
+
+
 ## 🧠 Course Credit
 
 This project was built as part of a complete Jenkins CI/CD tutorial by **TechWorld with Nana** on [YouTube](https://www.youtube.com/watch?v=soIpt3c7tVE).
