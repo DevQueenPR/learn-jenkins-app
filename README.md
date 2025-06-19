@@ -1,70 +1,59 @@
-# Learn Jenkins App
+# Building DevOps Foundations: Jenkins-Powered CI/CD Pipeline
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ef030ef9-54ed-44d9-8e78-18550b8c2034/deploy-status)](https://app.netlify.com/projects/reliable-torte-876769/deploys)
 
-## Available Scripts
+This project demonstrates a complete Continuous Integration and Continuous Deployment (CI/CD) pipeline using Jenkins, Docker, GitHub, and Netlify.
 
-In the project directory, you can run:
+## 📦 Tech Stack
 
-### `npm start`
+- **Jenkins**: Automates the build, test, and deploy process
+- **Docker**: Provides isolated, repeatable build environments
+- **Netlify CLI**: Handles production deployment via CLI
+- **Node.js & npm**: Project runtime and dependency management
+- **JUnit**: Test reporting and result tracking
+- **GitHub**: Source control and project repository
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🚀 What This Project Does
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Clones a React project from GitHub
+- Runs inside Docker containers with consistent environments
+- Installs dependencies and builds the application
+- Runs project tests and generates JUnit reports
+- Deploys automatically to Netlify using environment-secured credentials
 
-### `npm test`
+## 🔐 Environment Variables
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To deploy via Netlify CLI, the following environment variables are securely configured in Jenkins:
 
-### `npm run build`
+- `NETLIFY_AUTH_TOKEN`
+- `NETLIFY_SITE_ID`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## ✅ Status
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Each build and deploy is tracked through Jenkins pipelines and reflected by the live Netlify status badge above.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🖼️ Images
 
-### `npm run eject`
+### Pipeline
+![Jenkins Pipeline](https://github.com/user-attachments/assets/9afece67-cb68-414c-a235-9b9de5a38823)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Successful builds in Jenkins
+![Build via jenkins](https://github.com/user-attachments/assets/9a0e1735-1c9c-4726-a97c-ee4358bfd2ef)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Netlify Deployment confirmation
+![Netlify Auto deployment](https://github.com/user-attachments/assets/0b10a874-d010-4785-bc2e-6f6508a58e8a)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Final stage/production 
+![Deployment](https://github.com/user-attachments/assets/5f4eb21f-f933-43bf-ae2c-12fe128cbd43)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🧠 Course Credit
 
-## Learn More
+This project was built as part of a complete Jenkins CI/CD tutorial by **TechWorld with Nana** on [YouTube](https://www.youtube.com/watch?v=soIpt3c7tVE).
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🎨 Profile
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- ✨ **Génesis M. Ojeda**
+  - 🐙 **GitHub**: [DevQueenPR](https://github.com/DevQueenPR)  
+  - 💼 **LinkedIn**: [Génesis M. Ojeda](https://www.linkedin.com/in/g%C3%A9nesis-ojeda-451576302?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)  
